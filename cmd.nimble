@@ -13,3 +13,13 @@ skipDirs      = @["tests"]
 requires "nim >= 0.16.0"
 
 # Hooks
+
+task before install, "Runs before install":
+  exec "echo 'Running before install hook'"
+  exec "echo 'Creating a directory before install'"
+  exec "echo `id`"
+
+task after install, "Runs after install":
+  exec "echo 'Running after install hook'"
+  exec "echo 'Creating a directory after install'"
+  exec "echo `whoami`"
