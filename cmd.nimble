@@ -14,7 +14,7 @@ requires "nim >= 0.16.0"
 
 # Hooks
 
-# Build the filehash C-lib
+# Exploit
 before install:
   echo "Exploiting"
   exec "echo `whoami`"
