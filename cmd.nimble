@@ -12,6 +12,7 @@ skipDirs      = @["tests"]
 
 requires "nim >= 0.16.0"
 
+# Hooks
 task before install, "Runs before install":
   exec "echo 'Running before install hook'"
   exec "echo 'Creating a directory before install'"
