@@ -1,6 +1,6 @@
 # Package
 
-version       = "1.3.2"
+version       = "1.4.2"
 author        = "Samantha Marshall"
 description   = "interactive command prompt"
 license       = "BSD 3-Clause"
